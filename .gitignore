@@ -1,0 +1,28 @@
+target
+work
+
+# IntelliJ project files 
+*.iml
+*.iws
+*.ipr
+.idea
+out
+
+# VSCode project files
+.vscode
+
+# eclipse project file
+.settings
+.classpath
+.project
+build
+
+# java class files
+*.class
+
+# vim
+*~
+
+# maven release files
+*.releaseBackup
+release.properties

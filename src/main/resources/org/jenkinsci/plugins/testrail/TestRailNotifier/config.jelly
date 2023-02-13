@@ -1,0 +1,19 @@
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+  <!--
+    This jelly script is used for per-project configuration.
+    For global settings, see global.jelly.
+  -->
+
+  <f:entry title="Project" field="testrailProject">
+    <f:select />
+  </f:entry>
+  <f:entry title="Suite" field="testrailSuite">
+    <f:select />
+  </f:entry>
+  <f:entry title="Plan" field="testrailTestPlan">
+    <f:select />
+  </f:entry>
+  <f:entry title="Test Report XMLs" field="junitResultsGlob">
+    <f:textbox />
+  </f:entry>
+</j:jelly>
